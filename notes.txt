@@ -1,0 +1,23 @@
+******HIERARCHY******
+
+
+-| Threads
+
+factory:
+
+
+$thread->each(function($thread){factory('App\Reply',10)->create(['thread_id'=>$thread->id] );});
+
+
+  });
+	/\Realation\/
+
+
+
+-| Reply
+
+
+
+
+
+

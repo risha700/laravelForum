@@ -1,0 +1,33 @@
+// Fonts
+@import url("//fonts.googleapis.com/css?family=Raleway:300,400,600");
+//@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+// Variables
+
+
+
+
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.mt-2{
+	margin-top:3em;
+}
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+#message{
+	display:block;
+	position:fixed;
+	right:25px;
+	bottom:25px;
+}
+
+
+[v-cloak]{display:none;}
+.ais-highlight > em{
+	background: #c69500;
+}
